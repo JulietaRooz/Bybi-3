@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import styles from "./styles";
 
-function EscanerQR(props) {
+function Requisitos1(props) {
   const [user, setUser] = useState("");
   const [pass, setPass] = useState("");
 
@@ -24,28 +24,23 @@ function EscanerQR(props) {
       />
 
       <TouchableOpacity style={styles.gotit}>
-        <Text style={styles.already}>¡Escanea el código QR! </Text>
+        <Text style={styles.already}>Requisitos de seguridad </Text>
       </TouchableOpacity>
 
 
       <Image
-          style={styles.escaner}
-          source={require("../../assets/ScannQR.png")}
+          style={styles.casco}
+          source={require("../../assets/casco.png")}
         />
 
       <View style={styles.buttoncontainer}>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => props.navigation.navigate("Loginvisitor")}
-        >
-          <Text style={styles.textbutton}>Visitante</Text>
-        </TouchableOpacity>
+      
 
         <TouchableOpacity
           style={styles.button2}
-          onPress={() => props.navigation.navigate("LoginCelacho")}
+          onPress={() => props.navigation.navigate("Requisitos1")}
         >
-          <Text style={styles.textbutton}>Institucional</Text>
+          <Text style={styles.textbutton}>Continuar</Text>
         </TouchableOpacity>
       </View>
 
@@ -57,4 +52,4 @@ function EscanerQR(props) {
   );
 }
 
-export default EscanerQR;
+export default Requisitos1;

@@ -46,7 +46,15 @@ function LoginVisitor(props) {
           source={require("../../assets/camara.png")}
         />
       </View>
-      <Text style={styles.textbutton}>Continuar</Text>
+      
+
+      <TouchableOpacity
+          style={styles.button}
+          onPress={() => props.navigation.navigate("Requisitos1")}
+        >
+          <Text style={styles.textbutton}>Continuar</Text>
+        </TouchableOpacity>
+
 
       <Image
         style={styles.inferior}
