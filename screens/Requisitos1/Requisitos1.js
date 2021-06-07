@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-//import { CheckBox } from "react-native-elements";
-//const [isSelected, setSelected] = useState(false);
+import { CheckBox } from "react-native-elements";
+
 
 import {
   View,
@@ -16,30 +16,44 @@ import styles from "./styles";
 function Requisitos1(props) {
   const [user, setUser] = useState("");
   const [pass, setPass] = useState("");
-
+  const [isSelected, setSelected] = useState(false);
   const onPressLogin = () => {};
 
   return (
+
     <View style={styles.container}>
       <Image
         style={styles.superior}
         source={require("../../assets/cabeza.png")}
       />
-
       <TouchableOpacity style={styles.gotit}>
         <Text style={styles.already}>Requisitos de seguridad </Text>
       </TouchableOpacity>
 
 
+
+      <View style={styles.contenedor}>
       <Image
           style={styles.casco}
           source={require("../../assets/casco.png")}
         />
-
-      <View style={styles.buttoncontainer}>
+      <View style={styles.checkboxcontainer}>
       
 
+      <View>
+      <CheckBox
+     style={styles.checkbox}
+     title='Casco'
+     checkedIcon="check"
+     uncheckedIcon="square-o"
+     checkedColor="green"
+     checked={isSelected}
+     onPress={() => setSelected(!isSelected)}
+/>
+       </View>
 
+        </View>
+        </View>
 
         <TouchableOpacity
           style={styles.button2}
@@ -47,7 +61,7 @@ function Requisitos1(props) {
         >
           <Text style={styles.textbutton}>Continuar</Text>
         </TouchableOpacity>
-      </View>
+  
 
       <Image
         style={styles.inferior}

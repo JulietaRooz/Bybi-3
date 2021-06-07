@@ -9,11 +9,22 @@ const styles = StyleSheet.create({
     height: vh(100),
   },
 
-  buttoncontainer: {
-    width: "80%",
+contenedor:{
+backgroundColor: "blue",
+display: "flex",
+width: "90%",
+flexdirection: "row",
+justifycontent: "center",
+},
+
+  checkboxcontainer: {
+    width: "30%",
     marginTop: "2%",
     alignItems: "center",
-    height: vh(17),
+    height: vh(8),
+    backgroundColor: "red", 
+    left: "35%",
+   
   },
 
   superior: {
@@ -38,8 +49,8 @@ const styles = StyleSheet.create({
     marginTop: "2%",
     width: "30%",
     height: vh(10),
-    
-    
+    left: "-50%",
+  
   },
 
   inputs: {
@@ -48,6 +59,11 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#2CDCCC",
     
+  },
+
+  checkbox:
+  {
+    backgroundColor: "red",
   },
 
   button: {
@@ -85,5 +101,4 @@ const styles = StyleSheet.create({
     
   },
 });
-
 export default styles;
