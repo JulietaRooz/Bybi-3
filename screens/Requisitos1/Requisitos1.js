@@ -51,10 +51,6 @@ function Requisitos1(props) {
      onPress={() => setSelected(!isSelected)}
 />
        </View>
-
-
-       
-
         </View>
         </View>
 
@@ -75,3 +71,4 @@ function Requisitos1(props) {
 }
 
 export default Requisitos1;
+//hoa
