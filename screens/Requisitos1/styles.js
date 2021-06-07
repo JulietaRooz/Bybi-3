@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import { vw, vh, vmin, vmax } from "react-native-expo-viewport-units";
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -13,9 +14,8 @@ const styles = StyleSheet.create({
     marginTop: "2%",
     alignItems: "center",
     height: vh(17),
-    
-    
   },
+
   superior: {
     width: "100%",
     height: vh(23),
@@ -36,8 +36,9 @@ const styles = StyleSheet.create({
 
   casco: {
     marginTop: "2%",
-    width: "20%",
-    height: vh(30),
+    width: "30%",
+    height: vh(10),
+    
     
   },
 
@@ -48,8 +49,6 @@ const styles = StyleSheet.create({
     borderBottomColor: "#2CDCCC",
     
   },
-
-  
 
   button: {
     backgroundColor: "#3FA9F5",
@@ -62,8 +61,6 @@ const styles = StyleSheet.create({
     borderColor: "#4DFFCC",
     
   },
-
-
 
   textbutton: {
     textAlign: "center",

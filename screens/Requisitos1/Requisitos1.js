@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+//import { CheckBox } from "react-native-elements";
+//const [isSelected, setSelected] = useState(false);
+
 import {
   View,
   Text,
@@ -35,6 +38,8 @@ function Requisitos1(props) {
 
       <View style={styles.buttoncontainer}>
       
+
+
 
         <TouchableOpacity
           style={styles.button2}

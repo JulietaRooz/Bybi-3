@@ -31,10 +31,7 @@ function MyStack() {
 <Stack.Screen name="EscanerQR" component={EscanerQR} />
 <Stack.Screen name="Requisitos1" component={Requisitos1} />
 
-      <Stack.Screen name="InicioAdmin" component={InicioAdmin} />
-      <Stack.Screen name="EscanerQR" component={EscanerQR} />
-
-
+    
       <Stack.Screen name="LoginCelacho" component={LoginCelacho} />
       <Stack.Screen name="Loginvisitor" component={Loginvisitor} />
       <Stack.Screen name="Loginscreen" component={Loginscreen} />
