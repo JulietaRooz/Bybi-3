@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   },
 
 contenedor:{
-backgroundColor: "blue",
+
 display: "flex",
 width: "90%",
 flexdirection: "row",
@@ -42,23 +42,20 @@ justifycontent: "center",
   title: {
     fontSize: 30,
     fontWeight: "bold",
-
-  },
+},
 
   casco: {
     marginTop: "2%",
     width: "30%",
     height: vh(10),
     left: "-50%",
-  
-  },
+   },
 
   inputs: {
     height: 30,
     margin: 12,
     borderBottomWidth: 1,
     borderBottomColor: "#2CDCCC",
-    
   },
 
   checkbox:

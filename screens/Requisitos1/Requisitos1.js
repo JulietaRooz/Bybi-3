@@ -52,6 +52,9 @@ function Requisitos1(props) {
 />
        </View>
 
+
+       
+
         </View>
         </View>
 
