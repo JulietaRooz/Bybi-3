@@ -9,6 +9,11 @@ import Createuserscreen from "./screens/Createuserscreen/Createuserscreen";
 import Createbikescreen from "./screens/Createbikescreen/Createbikescreen";
 import Loginscreen from "./screens/Loginscreen/Loginscreen";
 
+
+
+import LoginCelacho from "./screens/LoginCelacho/Logincelacho";
+import Loginvisitor from "./screens/Loginvisitor/Loginvisitor";
+
 import LoginInst from "./screens/LoginInst/LoginInst";
 import EleccionUser from "./screens/EleccionUser/EleccionUser";
 
